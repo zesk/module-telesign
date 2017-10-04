@@ -1,5 +1,13 @@
 {
-    "require": {
-        "telesign/telesign": "^2.2"
-    }
+	"name": "zesk/module-telesign",
+	"description": "Wrappers for integration with the TeleSign SMS gateway which allows for sending and recieving SMS messages using a web API.",
+	"require": {
+		"telesign/telesign": "^2.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"zesk\\TeleSign\\": "classes/"
+		},
+		"files": "telesign.module.php"
+	}
 }

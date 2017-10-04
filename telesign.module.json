@@ -2,9 +2,5 @@
 	"name": "TeleSign integration with Zesk",
 	"description": "Wrappers for integration with the TeleSign SMS gateway which allows for sending and recieving SMS messages using a web API.",
 	"license": "MIT",
-	"autoload_options": {
-		"class_prefix": "zesk\\TeleSign\\"
-	},
-	"module_class": "zesk\\TeleSign\\Module",
-	"depends": [ "zesk\\Module_SMS" ]
+	"rest_endpoint": "https://rest-api.telesign.com"
 }
